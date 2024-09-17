@@ -1,0 +1,72 @@
+// Variables de couleurs
+$card-bg-color: white;
+$border-color: #ddd;
+$title-color: #007bff;
+$text-color: #333;
+$shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$link-color: #007bff;
+$link-hover-color: darken($link-color, 10%);
+$carousel-bg-color: #f8f9fa;
+
+// Container du projet
+.projet_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: $carousel-bg-color;
+
+  .project_card {
+    background-color: $card-bg-color;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: $shadow;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .project_pictures {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: $title-color;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: $text-color;
+      margin-bottom: 15px;
+
+      strong {
+        color: $title-color;
+      }
+    }
+
+    a {
+      color: $link-color;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $link-hover-color;
+      }
+    }
+
+    .carousel .slide {
+      background-color: $carousel-bg-color;
+    }
+  }
+}

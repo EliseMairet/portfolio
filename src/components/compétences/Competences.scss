@@ -1,0 +1,52 @@
+// Variables de couleurs
+$background-color: #f8f9fa;
+$text-color: #333;
+$title-color: #007bff;
+$border-color: #ddd;
+$shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+// Container pour les compétences
+.Langage {
+  padding: 40px 20px;
+  background-color: $background-color;
+  border-radius: 10px;
+  box-shadow: $shadow;
+  text-align: center;
+
+  .titre_langage {
+    color: $title-color;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+
+  .competences {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(25% - 20px); // 4 items par ligne, ajuster si besoin
+    box-shadow: $shadow;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    img {
+      max-width: 80px;
+      margin-bottom: 15px;
+      border-radius: 4px;
+    }
+
+    p {
+      color: $text-color;
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+}

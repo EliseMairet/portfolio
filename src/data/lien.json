@@ -1,0 +1,15 @@
+[
+    {
+        "id": "lien1",
+        "label": "GitHub",
+        "url": "https://github.com/EliseMairet",
+        "class": "btn-github"
+        
+    },
+    {
+        "id": "lien2",
+        "label": "Linkedin",
+        "url": "https://www.linkedin.com/in/elise-mairet-53631227a/",
+        "class": "btn-linkedin"
+    }
+]

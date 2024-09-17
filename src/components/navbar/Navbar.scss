@@ -1,0 +1,47 @@
+// Variables de couleurs
+$navbar-bg-color: #007bff;
+$link-color: white;
+$link-hover-color: lighten($link-color, 10%);
+$active-link-color: #0056b3;
+$navbar-padding: 20px;
+$navbar-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+// Styles de la barre de navigation
+.navbar {
+  background-color: $navbar-bg-color;
+  padding: $navbar-padding;
+  box-shadow: $navbar-shadow;
+  display: flex;
+
+
+  
+  .navbar_link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      color: $active-link-color;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 10px 15px;
+      transition: color 0.3s ease, background-color 0.3s ease;
+      border-radius: 5px;
+
+      &:hover {
+        color: $link-hover-color;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      &.active {
+        color: $active-link-color;
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      div {
+        padding: 5px 0;
+      }
+    }
+  }
+}

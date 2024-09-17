@@ -1,0 +1,90 @@
+// Variables de couleurs
+$background-color: #f8f9fa;
+$text-color: #333;
+$title-color: #007bff;
+$section-padding: 60px 20px;
+$border-color: #ddd;
+$shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$link-color: #007bff;
+$link-hover-color: darken($link-color, 10%);
+$photo-border-radius: 50%;
+
+// Styles de la section Présentation
+.Pres {
+  background-color: $background-color;
+  padding: $section-padding;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: $shadow;
+  text-align: center;
+
+  .a_propos {
+    color: $title-color;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+
+  .description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    p {
+      color: $text-color;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+  }
+
+  .Lien {
+    margin-top: 30px;
+
+    a {
+      color: $link-color;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $link-hover-color;
+      }
+    }
+
+    .btn {
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 5px;
+      font-weight: bold;
+    }
+    
+    .btn-github {
+      background-color: #333;
+    }
+    
+    .btn-linkedin {
+      background-color: #0077b5;
+    }
+    
+    .btn:hover {
+      opacity: 0.8;
+    }
+    
+  }
+
+  .Photo {
+    margin-top: 40px;
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: $photo-border-radius;
+      box-shadow: $shadow;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "id": "langage1",
+        "title": "bootstrap",
+        "image": "./assets/images-langages/logo_bootstrap.webp",
+        "alt": "logo Bootstrap"
+    },
+    {
+        "id": "langage2",
+        "title": "CSS3",
+        "image": "./assets/images-langages/logo_CSS.webp",
+        "alt": "logo CSS3"
+    },
+    {
+        "id": "langage3",
+        "title": "HTML5",
+        "image": "./assets/images-langages/logo_HTML.webp",
+        "alt": "logo HTML5"
+    },
+    {
+        "id": "langage4",
+        "title": "JavaScript",
+        "image": "./assets/images-langages/logo_JavaScript.webp",
+        "alt": "logo Java Script"
+    },
+    {
+        "id": "langage5",
+        "title": "jquery",
+        "image": "./assets/images-langages/logo_jquery.webp",
+        "alt": "logo Jquery"
+    },
+    {
+        "id": "langage6",
+        "title": "node.js",
+        "image": "./assets/images-langages/logo_node-js.webp",
+        "alt": "logo Jquery" 
+    },
+    {
+        "id": "langage7",
+        "title": "react-router",
+        "image": "./assets/images-langages/logo_react-router.webp",
+        "alt": "logo react-router" 
+    },
+    {
+        "id": "langage8",
+        "title": "react",
+        "image": "./assets/images-langages/logo_react.webp",
+        "alt": "logo react"
+    },
+    {
+        "id": "langage9",
+        "title": "SASS",
+        "image": "./assets/images-langages/logo_SASS.webp",
+        "alt": "logo SASS"
+    }
+]

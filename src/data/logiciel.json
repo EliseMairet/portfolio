@@ -1,0 +1,50 @@
+[
+    {
+        "id":"logiciel1",
+        "title":"chatGPT",
+        "image":"assets/images-logiciel/logo_chatgpt.webp",
+        "alt":"logo chatGPT"
+    },
+    {
+        "id":"logiciel2",
+        "title":"Figma",
+        "image":"./assets/images-logiciel/logo_figma.webp",
+        "alt":"logo Figma"
+    },
+    {
+        "id":"logiciel3",
+        "title":"Git",
+        "image":"./assets/images-logiciel/logo_git.webp",
+        "alt":"logo Git"
+    },
+    {
+        "id":"logiciel4",
+        "title":"Github",
+        "image":"./assets/images-logiciel/logo_github.webp",
+        "alt":"logo Github"
+    },
+    {
+        "id":"logiciel5",
+        "title":"Postman",
+        "image":"./assets/images-logiciel/logo_postman.webp",
+        "alt":"logo Postman"
+    },
+    {
+        "id":"logiciel6",
+        "title":"Slack",
+        "image":"./assets/images-logiciel/logo_slack.webp",
+        "alt":"logo Slack"
+    },
+    {
+        "id":"logiciel7",
+        "title":"Swagger",
+        "image":"./assets/images-logiciel/logo_swagger.webp",
+        "alt":"logo Swagger"
+    },
+    {
+        "id":"logiciel8",
+        "title":"VScode",
+        "image":"./assets/images-logiciel/logo_vscode.webp",
+        "alt":"logo VScode"
+    }
+]

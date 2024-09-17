@@ -1,0 +1,93 @@
+[
+    {
+        "id":"projet1",
+        "title":"Booki",
+        "categorie":"HTML",
+        "descriptionBreve":"Booki est une entreprise, qui souhaiterais développer un site internet, où les clients pourront chercher des hébergements et des activités dan sla ville de leurs choix.",
+        "cover":"./assets/images_cover/booki.webp",
+        "alt":"image appartement avec un lit",
+        "description":"Ce premier projet nous permet d'intégrer l'interface du site de Booki en utilisant du code HTML et CSS.",
+        "mission": "Après avoir débutez mon alternance en tant que développeur Web au seins de la start-up Booki. Je travaille en étroite collaboration avec ma cheffe technique et le disigner. Le site doit pouvoir être responsive sur trois types d'écrans (ordinateur, tablette et mobile).",
+        "tags":["HTML", "CSS", "Responsive", "VScode", "Figma"],
+        "pictures":["../../../src/assets/images-projets/Booki"],
+        "github":"https://github.com/EliseMairet/projet2Booki.git"
+    },
+    {
+        "id":"projet2",
+        "title":"Sophie Bluel",
+        "categorie":"Java Script",
+        "descriptionBreve":"Sophie Bluel est une architecte d'intérieur, qui souhaite mettre en avant avec un site portfolio, où elle pourra ajouter à son interface utilisateur.",
+        "cover":"./assets/images_cover/JavaScript.webp",
+        "alt":"image d'un hotel restaurant",
+        "description":"Ce deuxième projet nous demande de créer un site portfolio d'une architecte en utilisant le langage JavaScript et avec la communication d'une API. Le site doit être responsive et dynamique.",
+        "mission": "Travaillant dans l'agence ArchiWebos, en tant que développeur web front-end, et ayant terminé mon dernier projet, je suis envoyée en renfort sur le projet 'portfolio-Sophie Bluel'. Pour ce projet, je dois me référer à une maquette figma, la communication à l'API doit permettre à Sophie Bluel de se connecter et de pouvoir intéragir avec son site en ajoutant, et en supprimant ces travaux.",
+        "tags":["HTML", "CSS", "JavaScript", "Figma", "API", "Swagger"],
+        "pictures":["../../../src/assets/images-projets/Sophie-Bluel"],
+        "github":"https://github.com/EliseMairet/projet-3-Sophie-Bluel.git"
+    },
+    {
+        "id":"projet3",
+        "title":"Nina Carducci",
+        "categorie":"SEO",
+        "descriptionBreve":"Je propose mes services, pour l'optimisation SEO d'un site. Nina Carducci est une photographe basée à Bordeaux, elle accepte ma proposition d'optimisation de son site.",
+        "cover":"./assets/images_cover/nina_carducci.webp",
+        "alt":"image d'un foule",
+        "description":"Pour ce troisème projet, il nous a été demandé d'améliorer les performances du site, et le référencement du site d'une photographe.",
+        "mission": "Pour ce troisème projet, j'ai proposé mes services de développeur web frontend à une photographe. Elle a dans un premier temps créé elle-même son site, en ayant regardé son code, je lui ai proposé mes services pour améliorer et optimiser son site internet.",
+        "tags":["HTML", "CSS", "JavaScript", "Responsive", "SEO", "Meta"],
+        "pictures":["../../../src/assets/images-projets/Nina-Carducci"],
+        "github":"https://github.com/EliseMairet/Nina-Carducci-Dev-master.git"
+    },
+    {
+        "id":"projet4",
+        "title":"Kasa",
+        "categorie":"React",
+        "descriptionBreve":"Développeur frontend freelance pour Kasa, une entreprise de location, une refonte totale du site a été mise en place, le site doit être en langage react côté frontend.",
+        "cover":"./assets/images_cover/Kasa.webp",
+        "alt":"image salon d'appartement",
+        "description":"Ce quatrième projet, nous est proposé pour une refonte totale du site, dont la partie frontend doit être en react.",
+        "mission": "Developpeur web frontend freelance pour Kasa, cette entreprise de location immobilière à mise en place une refonte totale du site, ou le backend est en langage JavaScript avec Node.Js, et le frontend dont je dois m'occuper utilise le langage React.",
+        "tags":["HTML", "CSS", "React", "JavaScript", "React-router", "VScode", "Figma"],
+        "pictures":["../../../src/assets/images-projets/Kasa"],
+        "github":"https://github.com/EliseMairet/projet5.git"
+    },
+    {
+        "id":"projet5",
+        "title":"Mon vieux grimoire",
+        "categorie":"backend",
+        "descriptionBreve":"Développeur web backend freelance, j'ai été contacté par un collègue frontend, où une petite chaîne de librairie souhaiterais ouvrir un site web 'Mon vieux grimoire'.",
+        "cover":"./assets/images_cover/Mon_vieux_grimoire.webp",
+        "alt":"image bibliothèque",
+        "description":"Ce cinquième projet nous ai proposé pour mettre toute la partie backend avec node express et mongoDB. Egalement faire la mise en place des contrôlers, routes, middle wanre et serveur, dans le langage Java Script.",
+        "mission": "Développeur web backend freelance, nous est proposé pour la construction d'un backend. Il nous ai demandé de créer un serveur node express simple, de créer une API avec MongoDB, de mettre en place un système de d'authentification et un sytème de notation individuelle et d'une moyenne.",
+        "tags":["JavaScript", "MongoDB", "postman"],
+        "pictures":["../../../src/assets/images-projets/Mon_vieux_grimoire"],
+        "github":"https://github.com/EliseMairet/projet-8.git"
+    },
+    {
+        "id":"projet6",
+        "title":"Qwenta",
+        "categorie":"gestion de projet",
+        "descriptionBreve":"Développeur web frontend",
+        "cover":"./assets/images_cover/",
+        "alt":"",
+        "description":"",
+        "mission": "",
+        "tags":[""],
+        "pictures":["../../../src/assets/images-projets/Qwenta"],
+        "github":""
+    },
+    {
+        "id":"projet7",
+        "title":"Mon portfolio",
+        "categorie":"",
+        "descriptionBreve":"",
+        "cover":"./assets/images_cover/",
+        "alt":"",
+        "description":"",
+        "mission": "",
+        "tags":[""],
+        "pictures":["../../../src/assets/images-projets/Mon_portfolio"],
+        "github":""
+    }
+]
