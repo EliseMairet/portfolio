@@ -8,6 +8,7 @@ $shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 // Container de la grille de logiciels
 .Logiciel_grid {
   padding: 40px 20px;
+  margin: 30px 0;
   background-color: $background-color;
   border-radius: 10px;
   box-shadow: $shadow;
@@ -48,5 +49,19 @@ $shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       font-weight: bold;
       margin: 0;
     }
+  }
+}
+
+// Styles pour les écrans de téléphone
+@media (max-width: 768px) {
+  .Logiciel_grid {
+    padding: 20px 50px;
+    margin: 30px 0;
+  }
+  
+  .Logiciel_grid .logiciel {
+    width: calc(90% - 20px); 
+    display: block; 
+    margin: 10px 0px 30px; 
   }
 }

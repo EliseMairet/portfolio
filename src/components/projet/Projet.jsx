@@ -1,21 +1,14 @@
 import React, { useState } from 'react'
 import projects from '../../data/projets.json'
-import { useParams, useNavigate } from 'react-router-dom'
+import { NavLink, useParams } from 'react-router-dom'
 import './Projet.scss'
 
 const ProjectGallery = () => {
     const { id } = useParams() // Récupérer l'ID depuis l'URL
     const [selectedProject, setSelectedProject] = useState(null)
-    const navigate = useNavigate()
 
     // Trouver le projet correspondant à l'ID de l'URL
     const project = projects.find(project => project.id === id)
-
-    const handleProjectClick = (project) => {
-        setSelectedProject(project)
-        // Rediriger vers la page du projet concerné
-        navigate(`/projects/${project.id}`)
-    }
 
     return (
         <div>
@@ -23,13 +16,14 @@ const ProjectGallery = () => {
             <div className="project-gallery">
                 {projects.map((project) => (
                     <div key={project.id} className="project-item">
-                        <img
-                            src={project.cover}
-                            alt={project.alt}
-                            onClick={() => handleProjectClick(project)}
-                            style={{ cursor: 'pointer'}}
-                        />
-                        <p>{project.title}</p>
+                        <NavLink to={`/projects/${project.id}`} onClick={() => setSelectedProject(project)}>
+                            <img
+                                src={project.cover}
+                                alt={project.alt}
+                                style={{ cursor: 'pointer' }}
+                            />
+                            <p>{project.title}</p>
+                        </NavLink>
                     </div>
                 ))}
             </div>
@@ -56,4 +50,3 @@ const ProjectGallery = () => {
 }
 
 export default ProjectGallery
-

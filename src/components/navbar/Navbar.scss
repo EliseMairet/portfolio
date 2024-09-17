@@ -45,3 +45,17 @@ $navbar-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
   }
 }
+
+// Styles pour les écrans de téléphone
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar .navbar_link {
+    a {
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
+}

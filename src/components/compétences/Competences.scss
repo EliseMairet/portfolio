@@ -50,3 +50,16 @@ $shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
   }
 }
+
+// Styles pour les écrans de téléphone
+@media (max-width: 768px) {
+  .Langage {
+    padding: 20px 10px 20px 50px;
+  }
+
+  .Langage .competences {
+    width: calc(90% - 20px); 
+    display: block; 
+    margin: 10px 0px 30px;  
+  }
+}
