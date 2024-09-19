@@ -6,6 +6,7 @@ const Logiciel = () => {
     return (
         <div className='Logiciel_grid'>
             <h1 className='titre_logiciel'>Logiciels utilisés</h1>
+            <div className='Logiciel'>
             {logiciel &&
             logiciel.map((item) => (
                 <div className="logiciel" key={item.id}>
@@ -13,6 +14,7 @@ const Logiciel = () => {
                     <p>{item.title}</p>
                 </div>
             ))}
+            </div>
         </div>
     )
 }

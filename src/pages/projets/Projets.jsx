@@ -27,7 +27,6 @@ console.log(id)
                 )}
                 <h2>{projet.title}</h2>
                 <p><strong>Catégorie:</strong> {projet.categorie}</p>
-                <p>{projet.descriptionBreve}</p>
                 <p>{projet.description}</p>
                 <p><strong>Mission:</strong> {projet.mission}</p>
                 <p><strong>Tags:</strong> {projet.tags.join(', ')}</p>
@@ -47,7 +46,7 @@ console.log(id)
                 )}
             </div>
         </div>
-    );
+    )
 }
 
 export default Projet

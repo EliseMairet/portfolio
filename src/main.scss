@@ -9,12 +9,14 @@ $font-family: 'Arial', sans-serif;
 
 // Styles généraux
 body {
-  margin: 0;
-  padding: 0;
+  max-width: 1440px;
+  padding: 0px 50px;
+  margin: 0px auto;
   background-color: $background-color;
   color: $text-color;
   font-family: $font-family;
   line-height: 1.6;
+  justify-content: center;
 }
 
 a {
@@ -26,8 +28,6 @@ a {
 }
 
 .container {
-  width: 90%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }

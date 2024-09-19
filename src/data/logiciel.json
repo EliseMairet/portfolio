@@ -2,7 +2,7 @@
     {
         "id":"logiciel1",
         "title":"chatGPT",
-        "image":"assets/images-logiciel/logo_chatgpt.webp",
+        "image":"./assets/images-logiciel/logo_chatgpt.webp",
         "alt":"logo chatGPT"
     },
     {

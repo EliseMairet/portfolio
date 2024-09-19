@@ -11,7 +11,7 @@ const ProjectGallery = () => {
     const project = projects.find(project => project.id === id)
 
     return (
-        <div>
+        <div className='Projet_grid'>
             <h1>Mes Projets</h1>
             <div className="project-gallery">
                 {projects.map((project) => (
@@ -23,6 +23,7 @@ const ProjectGallery = () => {
                                 style={{ cursor: 'pointer' }}
                             />
                             <p>{project.title}</p>
+                            <p>{project.descriptionBreve}</p>
                         </NavLink>
                     </div>
                 ))}

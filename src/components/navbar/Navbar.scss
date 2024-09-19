@@ -13,12 +13,11 @@ $navbar-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   box-shadow: $navbar-shadow;
   display: flex;
 
-
-  
   .navbar_link {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: 100%;
 
     a {
       color: $active-link-color;
@@ -28,6 +27,7 @@ $navbar-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       padding: 10px 15px;
       transition: color 0.3s ease, background-color 0.3s ease;
       border-radius: 5px;
+      max-width: 20%;
 
       &:hover {
         color: $link-hover-color;
@@ -55,7 +55,8 @@ $navbar-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   .navbar .navbar_link {
     a {
       padding: 10px;
-      font-size: 20px;
+      font-size: 15px;
+      margin-right: 5px;
     }
   }
 }

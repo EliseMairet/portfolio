@@ -20,17 +20,26 @@ $shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 2.5rem;
   }
 
+  .Logiciel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   .logiciel {
-    display: inline-block;
+    display: grid;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     border: 1px solid $border-color;
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
-    width: calc(25% - 20px); // 4 items par ligne, ajuster si besoin
+    width: calc(25% - 20px);
     box-shadow: $shadow;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 150px;
 
     &:hover {
       transform: translateY(-5px);
@@ -39,7 +48,7 @@ $shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
     img {
       max-width: 80px;
-      margin-bottom: 15px;
+      margin: 15px;
       border-radius: 4px;
     }
 
@@ -48,6 +57,7 @@ $shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       font-size: 1.1rem;
       font-weight: bold;
       margin: 0;
+      text-align: center; // Alignement central du texte
     }
   }
 }
