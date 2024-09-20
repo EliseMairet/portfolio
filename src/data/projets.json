@@ -10,11 +10,11 @@
         "mission": "Après avoir débutez mon alternance en tant que développeur Web au seins de la start-up Booki. Je travaille en étroite collaboration avec ma cheffe technique et le disigner. Le site doit pouvoir être responsive sur trois types d'écrans (ordinateur, tablette et mobile).",
         "tags":["HTML", "CSS", "Responsive", "VScode", "Figma"],
         "pictures":[
-            "../../../src/assets/images-projets/Booki/Bookie_pc.PNG",
-            "../../../src/assets/images-projets/Booki/Bookie_pc2.PNG",
-            "../../../src/assets/images-projets/Booki/Bookie_tablette.PNG",
-            "../../../src/assets/images-projets/Booki/Bookie_telephone.PNG",
-            "../../../src/assets/images-projets/Booki/Bookie_telephoone2.PNG"
+            "/assets/images-projets/Booki/Bookie_pc.PNG",
+            "/assets/images-projets/Booki/Bookie_pc2.PNG",
+            "/assets/images-projets/Booki/Bookie_tablette.PNG",
+            "/assets/images-projets/Booki/Bookie_telephone.PNG",
+            "/assets/images-projets/Booki/Bookie_telephoone2.PNG"
         ],
         "github":"https://github.com/EliseMairet/projet2Booki.git"
     },
@@ -56,12 +56,12 @@
         "mission": "Developpeur web frontend freelance pour Kasa, cette entreprise de location immobilière à mise en place une refonte totale du site, ou le backend est en langage JavaScript avec Node.Js, et le frontend dont je dois m'occuper utilise le langage React.",
         "tags":["HTML", "CSS", "React", "JavaScript", "React-router", "VScode", "Figma"],
         "pictures":[
-            "../../../src/assets/images-projets/Kasa/a_propos.PNG",
-            "../../../src/assets/images-projets/Kasa/accueil.PNG",
-            "../../../src/assets/images-projets/Kasa/annonce.PNG",
-            "../../../src/assets/images-projets/Kasa/telephone_a_propos.PNG",
-            "../../../src/assets/images-projets/Kasa/telephone_accueil.PNG",
-            "../../../src/assets/images-projets/Kasa/telephone_annonce.PNG"
+            "/assets/images-projets/Kasa/a_propos.PNG",
+            "/assets/images-projets/Kasa/accueil.PNG",
+            "/assets/images-projets/Kasa/annonce.PNG",
+            "/assets/images-projets/Kasa/telephone_a_propos.PNG",
+            "/assets/images-projets/Kasa/telephone_accueil.PNG",
+            "/assets/images-projets/Kasa/telephone_annonce.PNG"
         ],
         "github":"https://github.com/EliseMairet/projet5.git"
     },
@@ -76,10 +76,10 @@
         "mission": "Développeur web backend freelance, nous est proposé pour la construction d'un backend. Il nous ai demandé de créer un serveur node express simple, de créer une API avec MongoDB, de mettre en place un système de d'authentification et un sytème de notation individuelle et d'une moyenne.",
         "tags":["JavaScript", "MongoDB", "postman"],
         "pictures":[
-            "../../../src/assets/images-projets/Mon_vieux_grimoire/accueil.PNG",
-            "../../../src/assets/images-projets/Mon_vieux_grimoire/ajouter_livre.PNG",
-            "../../../src/assets/images-projets/Mon_vieux_grimoire/livre_mieux_note.PNG",
-            "../../../src/assets/images-projets/Mon_vieux_grimoire/login.PNG"
+            "/assets/images-projets/Mon_vieux_grimoire/accueil.PNG",
+            "/assets/images-projets/Mon_vieux_grimoire/ajouter_livre.PNG",
+            "/assets/images-projets/Mon_vieux_grimoire/livre_mieux_note.PNG",
+            "/assets/images-projets/Mon_vieux_grimoire/login.PNG"
         ],
         "github":"https://github.com/EliseMairet/projet-8.git"
     },

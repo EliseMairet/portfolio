@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Projet from './pages/projets/Projets'  // Assure-toi que ce fichier est bien Projets.js
+import Projet from './pages/projets/Projets'  
 import Accueil from './pages/accueil/Accueil'
 import './main.scss'
 
