@@ -14,7 +14,7 @@
             "/assets/images-projets/Booki/Bookie_pc2.PNG",
             "/assets/images-projets/Booki/Bookie_tablette.PNG",
             "/assets/images-projets/Booki/Bookie_telephone.PNG",
-            "/assets/images-projets/Booki/Bookie_telephoone2.PNG"
+            "/assets/images-projets/Booki/Bookie_telephone2.PNG"
         ],
         "github":"https://github.com/EliseMairet/projet2Booki.git"
     },
@@ -28,7 +28,13 @@
         "description":"Ce deuxième projet nous demande de créer un site portfolio d'une architecte en utilisant le langage JavaScript et avec la communication d'une API. Le site doit être responsive et dynamique.",
         "mission": "Travaillant dans l'agence ArchiWebos, en tant que développeur web front-end, et ayant terminé mon dernier projet, je suis envoyée en renfort sur le projet 'portfolio-Sophie Bluel'. Pour ce projet, je dois me référer à une maquette figma, la communication à l'API doit permettre à Sophie Bluel de se connecter et de pouvoir intéragir avec son site en ajoutant, et en supprimant ces travaux.",
         "tags":["HTML", "CSS", "JavaScript", "Figma", "API", "Swagger"],
-        "pictures":["../../../src/assets/images-projets/Sophie-Bluel/"
+        "pictures":[
+            "/assets/images-projets/Sophie-Bluel/Accueil_login.PNG",
+            "/assets/images-projets/Sophie-Bluel/login.PNG",
+            "/assets/images-projets/Sophie-Bluel/Modale1.PNG",
+            "/assets/images-projets/Sophie-Bluel/Modale2.PNG",
+            "/assets/images-projets/Sophie-Bluel/Sophie_Bluel_projets.PNG",
+            "/assets/images-projets/Sophie-Bluel/Sophie_Bluel.PNG"
         ],
         "github":"https://github.com/EliseMairet/projet-3-Sophie-Bluel.git"
     },
@@ -42,7 +48,12 @@
         "description":"Pour ce troisème projet, il nous a été demandé d'améliorer les performances du site, et le référencement du site d'une photographe.",
         "mission": "Pour ce troisème projet, j'ai proposé mes services de développeur web frontend à une photographe. Elle a dans un premier temps créé elle-même son site, en ayant regardé son code, je lui ai proposé mes services pour améliorer et optimiser son site internet.",
         "tags":["HTML", "CSS", "JavaScript", "Responsive", "SEO", "Meta"],
-        "pictures":["../../../src/assets/images-projets/Nina-Carducci"],
+        "pictures":[
+            "/assets/images-projets/Nina-Carducci/Accueil.PNG",
+            "/assets/images-projets/Nina-Carducci/Portfolio.PNG",
+            "/assets/images-projets/Nina-Carducci/Portfolio_Concert.PNG",
+            "/assets/images-projets/Nina-Carducci/Bas_de_page.PNG"
+        ],
         "github":"https://github.com/EliseMairet/Nina-Carducci-Dev-master.git"
     },
     {
@@ -72,7 +83,7 @@
         "descriptionBreve":"Développeur web backend freelance, j'ai été contacté par un collègue frontend, où une petite chaîne de librairie souhaiterais ouvrir un site web 'Mon vieux grimoire'.",
         "cover":"./assets/images_cover/Mon_vieux_grimoire.webp",
         "alt":"image bibliothèque",
-        "description":"Ce cinquième projet nous ai proposé pour mettre toute la partie backend avec node express et mongoDB. Egalement faire la mise en place des contrôlers, routes, middle wanre et serveur, dans le langage Java Script.",
+        "description":"Ce cinquième projet, nous est proposé pour mettre toute la partie backend avec node express et mongoDB. Egalement faire la mise en place des contrôlers, routes, middle wanre et serveur, dans le langage Java Script.",
         "mission": "Développeur web backend freelance, nous est proposé pour la construction d'un backend. Il nous ai demandé de créer un serveur node express simple, de créer une API avec MongoDB, de mettre en place un système de d'authentification et un sytème de notation individuelle et d'une moyenne.",
         "tags":["JavaScript", "MongoDB", "postman"],
         "pictures":[
@@ -87,26 +98,36 @@
         "id":"projet6",
         "title":"Qwenta",
         "categorie":"gestion de projet",
-        "descriptionBreve":"Développeur web frontend",
-        "cover":"./assets/images_cover/",
-        "alt":"",
-        "description":"",
-        "mission": "",
-        "tags":[""],
-        "pictures":["../../../src/assets/images-projets/Qwenta"],
+        "descriptionBreve":"Le Product Owner du projet est malade, il m’a confié la tâche de préparé et planifier le projet Qwenta MenuMaker.",
+        "cover":"./assets/images_cover/qwenta.PNG",
+        "alt":"image page d'accueil",
+        "description":"Ce sixième projet, est différent des autres projets réalisés, il s'agit de planifier le développement du prochain site de notre client Qwenta. ",
+        "mission": "Je suis développeur front-end dans l'agence de Webgencia. Soufiane, le product owner, me confie une mission différente de d'habitude. Il s'agit de mener, préparer et planifier le projet de développement d'un site d'un de nos clients.",
+        "tags":["Gestion de projet", "Méthode agile", "Veille technique"],
+        "pictures":[
+            "/assets/images-projets/Qwenta/Kanban.PNG",
+            "/assets/images-projets/Qwenta/PowerPoint.PNG",
+            "/assets/images-projets/Qwenta/Spécification_technique.PNG",
+            "/assets/images-projets/Qwenta/Veille_technologique.PNG"
+        ],
         "github":""
     },
     {
         "id":"projet7",
         "title":"Mon portfolio",
-        "categorie":"",
-        "descriptionBreve":"",
-        "cover":"./assets/images_cover/",
-        "alt":"",
-        "description":"",
-        "mission": "",
-        "tags":[""],
-        "pictures":["../../../src/assets/images-projets/Mon_portfolio"],
-        "github":""
+        "categorie":"React",
+        "descriptionBreve":"Mon site portfolio, celui sur lequel vous naviguez actuellement,  où j'expose les différents projets sur lesquels j'ai travaillé.",
+        "cover":"./assets/images_cover/portfolio.PNG",
+        "alt":"image page d'accueil",
+        "description":"Le dernier projet du parcours developpeur web consiste à créer et mettre en ligne son site portfolio.",
+        "mission": "Elle consiste tout simplement à créer mon portfolio qui me servira à me présenter, mettre en avant les différentes compétences que j'ai acquis, et montrer les projets sur lesquels j'ai travaillé tout au long de ma formation avec OpenClassrooms. Puis de déployer mon site en ligne et qu'il soit responsive c'est-à-dire qu'il s'adapte à tous les écrans : pc, tablette, smartphone.",
+        "tags":["React", "React-Router", "Sass", "Responsive"],
+        "pictures":[
+            "/assets/images-projets/Mon_portfolio/langage.PNG",
+            "/assets/images-projets/Mon_portfolio/mes_projets.PNG",
+            "/assets/images-projets/Mon_portfolio/contact.PNG",
+            "/assets/images-projets/Mon_portfolio/detail_projet.PNG"
+        ],
+        "github":"https://github.com/EliseMairet/portfolio"
     }
 ]

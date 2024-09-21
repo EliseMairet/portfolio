@@ -24,7 +24,6 @@ $carousel-bg-color: #f8f9fa;
     margin-bottom: 40px;
     box-shadow: $shadow;
     width: 100%;
-    max-width: 800px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -40,7 +39,7 @@ $carousel-bg-color: #f8f9fa;
     }
 
     h2 {
-      font-size: 2rem;
+      font-size: 2.25rem;
       color: $title-color;
       margin-bottom: 20px;
     }
@@ -48,6 +47,7 @@ $carousel-bg-color: #f8f9fa;
     p {
       color: $text-color;
       margin-bottom: 15px;
+      font-size: 1.50rem;
 
       strong {
         color: $title-color;
@@ -59,6 +59,7 @@ $carousel-bg-color: #f8f9fa;
       font-weight: bold;
       text-decoration: none;
       transition: color 0.3s ease;
+      font-size: 1.50rem;
 
       &:hover {
         color: $link-hover-color;
