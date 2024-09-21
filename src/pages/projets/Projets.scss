@@ -38,6 +38,15 @@ $carousel-bg-color: #f8f9fa;
       margin-bottom: 20px;
     }
 
+    .carousel-image {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+    }    
+
     h2 {
       font-size: 2.25rem;
       color: $title-color;
@@ -49,6 +58,10 @@ $carousel-bg-color: #f8f9fa;
       margin-bottom: 15px;
       font-size: 1.50rem;
 
+      @media screen and (max-width: 768px) {
+        font-size: 1rem;
+      }
+
       strong {
         color: $title-color;
       }
@@ -59,7 +72,10 @@ $carousel-bg-color: #f8f9fa;
       font-weight: bold;
       text-decoration: none;
       transition: color 0.3s ease;
-      font-size: 1.50rem;
+      font-size: 1rem;
+      @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+      }
 
       &:hover {
         color: $link-hover-color;

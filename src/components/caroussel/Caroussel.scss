@@ -23,11 +23,12 @@
 }
   
     .image_slide {
-      width: 80%;
-      height: 80%;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
       object-fit: cover;
-      object-position: center;
-      margin: 40px;
+      border-radius: 8px;
     }
   
     .counter {
