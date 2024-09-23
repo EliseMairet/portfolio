@@ -29,12 +29,12 @@
         "mission": "Travaillant dans l'agence ArchiWebos, en tant que développeur web front-end, et ayant terminé mon dernier projet, je suis envoyée en renfort sur le projet 'portfolio-Sophie Bluel'. Pour ce projet, je dois me référer à une maquette figma, la communication à l'API doit permettre à Sophie Bluel de se connecter et de pouvoir intéragir avec son site en ajoutant, et en supprimant ces travaux.",
         "tags":["HTML", "CSS", "JavaScript", "Figma", "API", "Swagger"],
         "pictures":[
-            "/assets/images-projets/Sophie-Bluel/Accueil_login.PNG",
-            "/assets/images-projets/Sophie-Bluel/login.PNG",
-            "/assets/images-projets/Sophie-Bluel/Modale1.PNG",
-            "/assets/images-projets/Sophie-Bluel/Modale2.PNG",
-            "/assets/images-projets/Sophie-Bluel/Sophie_Bluel_projets.PNG",
-            "/assets/images-projets/Sophie-Bluel/Sophie_Bluel.PNG"
+            "./assets/images-projets/Sophie-Bluel/Accueil_login.PNG",
+            "./assets/images-projets/Sophie-Bluel/login.PNG",
+            "./assets/images-projets/Sophie-Bluel/Modale1.PNG",
+            "./assets/images-projets/Sophie-Bluel/Modale2.PNG",
+            "./assets/images-projets/Sophie-Bluel/Sophie_Bluel_projets.PNG",
+            "./assets/images-projets/Sophie-Bluel/Sophie_Bluel.PNG"
         ],
         "github":"https://github.com/EliseMairet/projet-3-Sophie-Bluel.git"
     },
