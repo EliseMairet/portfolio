@@ -12,7 +12,7 @@ const App = () => {
         <Route path="/projects/:id" element={<Projet />} />
       </Routes>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
