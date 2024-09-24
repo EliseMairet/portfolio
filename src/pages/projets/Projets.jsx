@@ -1,18 +1,23 @@
-  import React from 'react'
+  import React, { useEffect } from 'react'
   import projets from '../../data/projets.json'
   import Caroussel from '../../components/caroussel/Carrousel'
   import { Link, useParams } from "react-router-dom"
   import './Projets.scss'
 
   const Projet = () => {
-    const { id } = useParams() // Récupérer l'ID depuis l'URL
+    const { id } = useParams(); // Récupérer l'ID depuis l'URL
 
+    // Utiliser useEffect pour forcer le rechargement lorsque la page est visitée
+    useEffect(() => {
+      window.location.reload();
+    }, [id]); // Le hook se déclenche chaque fois que l'id change (lorsqu'on navigue vers un autre projet)
+  
     // Trouver le projet correspondant à l'ID
-    const projet = projets.find((projet) => projet.id === id)
-
+    const projet = projets.find((projet) => projet.id === id);
+  
     // Si le projet n'est pas trouvé, afficher un message d'erreur ou rediriger
     if (!projet) {
-      return <p>Projet non trouvé</p>
+      return <p>Projet non trouvé</p>;
     }
 
     return (
