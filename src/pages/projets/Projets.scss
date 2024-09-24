@@ -51,6 +51,9 @@ $carousel-bg-color: #f8f9fa;
       font-size: 2.25rem;
       color: $title-color;
       margin-bottom: 20px;
+      @media screen and (max-width: 768px) {
+        font-size: 2rem;
+      }
     }
 
     p {

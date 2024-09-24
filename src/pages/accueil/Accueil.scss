@@ -155,3 +155,21 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 768px){
+  .Pres .a_propos {
+    font-size: 2rem;
+  }
+  .Langage .titre_langage{
+    font-size: 2rem;
+  }
+  .Logiciel_grid .titre_logiciel{
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  form {
+    box-shadow: none;
+  }
+}

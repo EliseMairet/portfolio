@@ -10,7 +10,7 @@ $section-padding: 60px 20px;
 
 // Styles généraux
 .project-gallery {
-  display: grid;
+  display: block;
   max-width: 75%;
   margin: 0 auto; // Pour centrer la galerie dans la page
   gap: 20px;
@@ -27,6 +27,7 @@ $section-padding: 60px 20px;
     border: 1px solid $border-color;
     border-radius: 10px;
     padding: 15px;
+    margin: 15px;
     text-align: center;
     box-shadow: $shadow;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -38,7 +39,7 @@ $section-padding: 60px 20px;
     }
 
     img {
-      min-width: 50%;
+      max-width: 100%;
       border-radius: 8px;
       margin-bottom: 10px;
       transition: transform 0.3s ease;
@@ -70,12 +71,10 @@ h1 {
 
 // Styles pour les écrans de téléphone
 @media (max-width: 768px) {
-  .Logiciel_grid {
-    padding: 20px 50px;
-  }
 
   .project-gallery{
     padding: 60px 0px;
+    max-width: none;
   }
   
   .project-gallery .project-item {

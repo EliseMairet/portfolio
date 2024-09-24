@@ -27,7 +27,7 @@ const Accueil = () => {
                 <Contact />
             </section>
         </main>
-    );
-};
+    )
+}
 
 export default Accueil;

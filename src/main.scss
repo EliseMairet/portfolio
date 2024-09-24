@@ -126,3 +126,12 @@ a {
     }
   }
 }
+
+@media (max-width: 768px) {
+  main{
+    padding: 0;
+  }
+  body {
+    padding: 0;
+  }
+}
