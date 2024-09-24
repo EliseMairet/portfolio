@@ -61,7 +61,7 @@
         "title":"Kasa",
         "categorie":"React",
         "descriptionBreve":"Développeur frontend freelance pour Kasa, une entreprise de location, une refonte totale du site a été mise en place, le site doit être en langage react côté frontend.",
-        "cover":"./assets/images_cover/Kasa.webp",
+        "cover":"./assets/images_cover/kasa.webp",
         "alt":"image salon d'appartement",
         "description":"Ce quatrième projet, nous est proposé pour une refonte totale du site, dont la partie frontend doit être en react.",
         "mission": "Developpeur web frontend freelance pour Kasa, cette entreprise de location immobilière à mise en place une refonte totale du site, ou le backend est en langage JavaScript avec Node.Js, et le frontend dont je dois m'occuper utilise le langage React.",
